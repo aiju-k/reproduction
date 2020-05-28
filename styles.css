@@ -382,6 +382,13 @@ footer .btn {
 }
 
 /* スマートフォン */
+@media screen and (max-width: 575px) {
+  div.form {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+  }
+}
+
 
 @media screen and (max-width: 767px) {
 body {
